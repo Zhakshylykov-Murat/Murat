@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Stardos+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header */
+/*  Header top */
+.wrapper{
+    max-width: 1920px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #000000;
+    height: 44px;
+    color: grey;
+    font-size: 14px;
+}
+.header .login a{
+    text-decoration: none;
+    color: grey;
+    position: absolute;
+}
+.header .login{
+    margin-right: 150px;
+}
+.info svg{
+    position: absolute;
+    top: 14px;
+    left: 185px;
+}
+/* End Header top */
+/* Header bottom */
+.wrapper-bottom{
+    background: #0F0F0F;
+    height: 80px;
+    color: grey;
+}
+.header-bottom{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    font-family: 'Stardos Stencil', cursive;
+    font-size: 36px;
+    color: white;
+    padding-top: 15px;
+}
+.nav ul{
+    display: flex;
+    padding-top: 31px;
+    padding-right: 150px;
+    list-style-type: none;
+}
+.nav li a{
+    text-decoration: none;
+    color: grey;
+    background: transparent;
+    padding: 30px 20px;
+}
+.nav li a:hover{
+    background: #1F1F1F;
+    color: white;
+}
+.nav .cart{
+    position: absolute;
+    right: 260px;
+    top: 70px;
+}
+.nav .loupe{
+    position: absolute;
+    right: 200px;
+    top: 72px;
+}
+/* Sectiion baner */
+.banner{
+    background-image: url("../img/Rectangle\ 3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.banner .wrapper{
+    border: 4px solid #FFFFFF;
+    width: 330px;
+    height: 330px;
+    margin: 50px 480px;
+    padding: 93px 20px;
+}
+.title{
+    font-family: 'Stardos Stencil', cursive;
+    font-size: 60px;
+}
+hr{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.city{
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+}
+.text{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+/* Collection Section */
+.collection{
+    background: #000000;
+    color: #FFFFFF;
+    display: flex;
+}
+.collection .text{
+    padding: 40px 264px;
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+}
+.collection-card hr{
+    width: 120px;
+    margin-left: 325px;
+    margin-bottom: 50px;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+}
+.product_img{
+    background-color: #191B1C;
+    padding: 20px 20px;
+}
+.product img{
+    width: 150px;
+    height: 150px;
+}
+.product_title{
+    padding: 25px 0px 10px 0px;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+}
+.product-price{
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: #D0D0D0;
+    padding-bottom: 60px;
+}
+/* Section left */
+.title-collection{
+    position: absolute;
+    right: 150px;
+    top: 1520px;
+}
+.title-collection p{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+.title-collection hr{
+    width: 125px;
+    margin: 20px 60px;
+}
+.title-collection button{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 30px;
+    margin-left: 50px;
+}
+/* Collection Section2 */
+.collection2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background: black;
+}
+.title-collection2{
+    margin-left: 120px;
+    color: white;
+}
+.text-collection2{
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.title-collection2 hr{
+    width: 125px;
+    margin: 40px 220px;
+}
+.text-collection3{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+}
+.title-collection2 button{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 40px;
+    margin-top: 25px;
+}
+/* Section receipts */
+.receipts{
+    background: #000000;
+    color: white;
+}
+.receipts .receipts-title{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 100px 0 0 0;
+}
+.receipts hr{
+    width: 120px;
+    margin: 50px 0 50px 610px;
+}
+.card2,
+.card4{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 230px 0 230px;
+}
+/* Footer top */
+.footer-top{
+    background: #0F0F0F;
+    height: 360px;
+    color: white;
+}
+.footer-title{
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 70px 0 0 0;
+}
+.footer-top hr{
+    width: 120px;
+    margin: 40px 0 30px 600px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 30px 0 30px;
+}
+/* Footer center */
+.footer-info{
+    background-image: url(../img/Rectangle\ 15.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.footer-center-title{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+.footer-text{
+    font-family: 'Stardos Stencil', serif;
+    font-size: 14px;
+    line-height: 25px;
+}
+.footer-center-categories button a{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #D0D0D0;
+    text-decoration: none;
+}
+.footer-center-categories button{
+    background-color: #0F0F0F;
+    border: 1px solid transparent;
+    margin: 0 10px 20px  0;
+    padding: 10px 20px 10px 20px;
+}
+input{
+    background: rgba(255, 255, 255, 0.4);
+    padding: 12px 30px;
+    border: 1px solid transparent;
+}
+::-webkit-input-placeholder {
+    color: rgb(192, 192, 192);
+}
+.form-fields button{
+    /* font-family: 'PT Sans', sans-serif; */
+    font-size: 14px;
+    background-color: #0F0F0F;
+    border: 1px solid transparent;
+    margin-top: 40px;
+    padding: 10px 20px 10px 20px;
+}
+.form-fields button a{
+    text-decoration: none;
+    color: #D0D0D0;
+}
+/* Footer bottom */
+.footer-bottom{
+    background: #0F0F0F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: gray;
+    padding: 15px 0;
+}
+.footer-bottom .footer-more a{
+    color: gray;
+    text-decoration: none;
+}
